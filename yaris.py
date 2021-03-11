@@ -1,3 +1,7 @@
+pip install pytrends
+pip install matplotlib
+pip install japanmap
+
 import datetime
 today = datetime.date.today()
 monthago= datetime.datetime.today() - datetime.timedelta(days=30)
